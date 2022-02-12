@@ -55,8 +55,6 @@ height:125vh;
  */
 .content{
 padding:5%;
-position: center;
-
 }
 .content p{
 font-size:18px;
@@ -141,9 +139,12 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
- #video{
-position: center;
-}
+ .video1{
+  margin-top: 100px;
+display: flex;
+justify-content: center;
+ }
+ 
 </style>
 
 </head>
@@ -254,9 +255,10 @@ Happy Birthday Happy Birthday Happy Birthday Happy Birthday Happy Birthday Happy
 Happy Birthday Happy Birthday</p>
  
 
-<iframe id="video" width="700" height="500" src="https://www.youtube.com/embed/vNFNb9i15fw" frameborder="0" 
+<div class="video1">
+ <iframe id="video" width="700" height="500" src="https://www.youtube.com/embed/vNFNb9i15fw" frameborder="0" 
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+ </div>
  
 </div>
 
